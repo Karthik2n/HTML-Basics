@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:rgb(129, 204, 214);">
+
+<h1 style="color:rgb(255, 0, 166);">HTML</h1>
+
+<div id="content"></div>
+
+<script>
+    fetch("Lists and Table.html")
+      .then(response => response.text())
+      .then(data => {
+          document.getElementById("content").innerHTML = data;
+      });
+</script>
+
+<!-- Images -->
+<img src="Images/html5.jpg" alt="html" width="200">
+<img src="Images/CSS.jpg" alt="CSS" width="150" height="200">
+<img src="Images/logo-javascript-png.png" alt="JS" width="60" height="200">
+<img src="Images/React.jpg" alt="React" width="120" height="200">
+<br><br>
+
+<!-- Video -->
+<video width="320" height="240" controls>
+ <source src="Images/viideoclip.mp4" type="video/mp4">
+</video>
+
+<br><br>
+<a href="Form.html"><strong>Click To View Form</strong></a>
+
+<br><br>
+<a href="Portfolio.html"><strong>Click To View Portfolio</strong></a>
+
+</body>
+</html>
