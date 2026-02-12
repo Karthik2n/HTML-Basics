@@ -60,7 +60,7 @@ No installation or server setup is required.
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - HTML5
 
