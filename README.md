@@ -40,6 +40,10 @@ HTML-Basics/
 
 ---
 
+## Live Demo
+You can view the hosted demo here:
+🔗https://htmlprojectbasics.netlify.app/
+
 ##  How to Run the Project
 
 1. Clone the repository:
